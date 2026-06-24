@@ -27,29 +27,23 @@ RNA sequencing was performed on diagnostic bone marrow samples, and patients wer
 
 ## Bioinformatic Workflow
 
-1. Quality control of raw sequencing data.
-2. Alignment of RNA-seq reads to the human reference genome.
-3. Quantification of gene and HERV expression.
-4. Data filtering and normalization.
-5. Differential expression analysis.
-6. Gene set enrichment analysis (GSEA).
-7. Transcriptional network inference.
-8. Master regulator analysis.
+1. Alignment of RNA-seq reads to the human reference genome.
+2. Quantification of gene and HERV expression.
+3. Data filtering and normalization.
+4. Differential expression analysis.
+5. Transcriptional network inference.
+6. Master regulator analysis.
+7. Gene set enrichment analysis (GSEA)
 
 ---
 
 ## Software and Tools
 
-* FastQC
-* MultiQC
-* fastp
 * STAR
 * Telescope
-* R
 * DESeq2
+* corto
 * clusterProfiler
-* ARACNe3
-* NaRnEA
 
 ---
 
@@ -70,7 +64,6 @@ docs/        Additional documentation
 
 Raw sequencing data are not included in this repository.
 
-Only processed and non-identifiable data required to reproduce the analyses are provided.
 
 ---
 
