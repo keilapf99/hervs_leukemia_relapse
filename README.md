@@ -1,8 +1,8 @@
-# HERVs in Pediatric Acute Lymphoblastic Leukemia Relapse
+# TEs in Pediatric Acute Lymphoblastic Leukemia Relapse
 
 ## Overview
 
-This repository contains the code and processed data used to characterize the retrotranscriptome in pediatric acute lymphoblastic leukemia (ALL) and evaluate the potential association of human endogenous retroviruses (HERVs) with relapse.
+This repository contains the code and processed data used to characterize the retrotranscriptome in pediatric acute lymphoblastic leukemia (ALL) and evaluate the potential association of transposable elements (HERVs/LTR + LINE) with relapse.
 
 The analyses were performed using bulk RNA-seq samples collected at diagnosis from pediatric ALL patients. Patients were subsequently classified according to relapse status during follow-up.
 
@@ -10,10 +10,10 @@ The analyses were performed using bulk RNA-seq samples collected at diagnosis fr
 
 ## Objectives
 
-* Characterize HERV expression profiles in pediatric ALL.
+* Characterize TEs expression profiles in pediatric ALL.
+* Infer transcriptional regulatory networks and master regulators associated with relapse.
 * Identify transcriptional differences between patients who relapsed and those who did not relapse.
 * Explore biological pathways associated with relapse.
-* Infer transcriptional regulatory networks and master regulators associated with relapse.
 
 ---
 
